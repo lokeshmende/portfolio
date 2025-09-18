@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="section" style="padding-top: 10rem;">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://medicaldialogues.in/h-upload/2025/04/23/750x450_284103-facial-recognition-technology.webp" alt="Automated Attendance System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Automated Attendance System using Face Recognition</h3>
+                        <p>Implemented two ML pipelines (MTCNN + FaceNet and Haar Cascade + LBPH) for facial recognition and validated model accuracy. Achieved 92% accuracy with the FaceNet model and 77% accuracy with Haar Cascade and LBPH.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://www.mdpi.com/sensors/sensors-24-00152/article_deploy/html/images/sensors-24-00152-g004-550.jpg" alt="Stress Detection System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-Time Stress Detection through Facial Expressions</h3>
+                        <p>Developed a computer vision system using OpenCV to process facial images and perform feature extraction via facial landmark mapping. Implemented an expression classification model to estimate stress levels and generate real-time predictions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://static.vecteezy.com/system/resources/previews/003/591/362/non_2x/online-test-man-fill-in-on-monitor-via-internet-illustration-vector.jpg" alt="Online Test Analysis System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Test Analysis System</h3>
+                        <p>This project aims to evaluate a user's performance in an online test and visually represent their strengths and weaknesses. It analyzes test data to provide improvement suggestions and identify areas of expertise.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://miro.medium.com/v2/resize:fit:846/1*HBllwUCObQcZ1OfuuHwVfA.jpeg" alt="Traffic Sign Prediction">
+                    </div>
+                    <div class="project-content">
+                        <h3>Traffic Sign Prediction</h3>
+                        <p>This project aims to develop a real-time traffic sign prediction Deep Learning Model using Python. It aims to improve safety and security measures for individuals.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
